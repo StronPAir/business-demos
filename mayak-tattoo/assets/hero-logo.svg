@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340">
+  <defs>
+    <linearGradient id="amber" x2=".78" y2="1">
+      <stop stop-color="#fff2cf"/>
+      <stop offset=".42" stop-color="#ffbd47"/>
+      <stop offset="1" stop-color="#bd5611"/>
+    </linearGradient>
+    <linearGradient id="beam">
+      <stop stop-color="#ffcf75" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffcf75" stop-opacity=".68"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(260 133)">
+    <circle r="93" fill="none" stroke="#f3a73a" stroke-opacity=".18"/>
+    <circle r="77" fill="#101620" stroke="#ec9d37" stroke-opacity=".45"/>
+    <path d="M-15-33-190-83v100L-15-14Z" fill="url(#beam)"/>
+    <path d="M15-33 190-83v100L15-14Z" fill="url(#beam)" style="transform: scaleX(-1); transform-origin: center; visibility: hidden"/>
+    <path d="M-15-33-190-83v100L-15-14Z" fill="url(#beam)" transform="scale(-1 1)"/>
+    <path d="m-26 50 9-61h34l9 61ZM-20-17v-21L0-53l20 15v21ZM-34 51h68" fill="#7a3512" stroke="#7a3512" stroke-width="6" stroke-linejoin="round" transform="translate(0 7)"/>
+    <path d="m-26 50 9-61h34l9 61ZM-20-17v-21L0-53l20 15v21ZM-34 51h68" fill="#272024" stroke="url(#amber)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M-1-40h2v17h-2zm-6 87V25a7 7 0 0 1 14 0v22" fill="url(#amber)"/>
+    <path d="M-44 64h88" stroke="#ffb640" stroke-opacity=".6"/>
+  </g>
+  <g fill="url(#amber)" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800">
+    <text x="260" y="267" font-size="52" letter-spacing="9">МАЯК</text>
+    <text x="260" y="301" font-size="14" letter-spacing="8">TATTOO</text>
+  </g>
+</svg>

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#16110E">
+  <meta name="description" content="«Камера Обскура» — интерьерная фотостудия в Омске. Портреты, семейные и контент-съёмки, аренда локации. 1-я Береговая, 25. Запись по телефону +7 913 960-90-30.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Камера Обскура — интерьерная фотостудия в Омске">
+  <meta property="og:description" content="Интерьерная фотостудия с характером плёночного кадра. Запись по телефону +7 913 960-90-30.">
+  <meta property="og:image:alt" content="Библиотека с кожаным диваном">
+  <title>Камера Обскура — интерьерная фотостудия в Омске</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&amp;family=Playfair+Display:wght@400;500;600&amp;display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Камера Обскура",
+    "description": "Интерьерная фотостудия в Омске. Посещение по предварительному звонку.",
+    "telephone": "+79139609030",
+    "sameAs": "https://2gis.ru/omsk/firm/70000001037964133",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1-я Береговая улица, 25, 3 этаж, 1 подъезд",
+      "addressLocality": "Омск",
+      "addressRegion": "Омская область",
+      "postalCode": "644007",
+      "addressCountry": "RU"
+    },
+    "openingHours": "Mo-Su 09:00-24:00",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": 5.0, "ratingCount": 165, "reviewCount": 91 },
+    "hasMap": "https://2gis.ru/omsk/firm/70000001037964133"
+  }
+  </script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-mark" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 3.3 5.2 8.8m5.6-2.6H10.5m7.8 8.9-5.2-8.9M14 20.7l-5.2-8.8m-5.6 2.6h10.3m-7.8-8.9 5.2 8.9"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.2 2 18 18 0 0 1-7.9-2.8A18 18 0 0 1 5.3 13a18 18 0 0 1-2.8-7.9A2 2 0 0 1 4.5 3h3a2 2 0 0 1 2 1.7l.6 2.8a2 2 0 0 1-.5 2.1l-1.3 1.3a14.5 14.5 0 0 0 4.8 4.8l1.3-1.3a2 2 0 0 1 2.1-.5l2.8.6a2 2 0 0 1 1.7 2Z"/></symbol>
+    <symbol id="icon-next" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-prev" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="icon-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6"/></symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10"/></symbol>
+    <symbol id="icon-expand" viewBox="0 0 24 24"><path d="M9 4H4v5m11-5h5v5m0 6v5h-5m-6 0H4v-5"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
+    <symbol id="icon-pause" viewBox="0 0 24 24"><path d="M9 5v14m6-14v14"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7Z"/></symbol>
+    <symbol id="icon-star" viewBox="0 0 24 24"><path d="m12 2 3 6.1 6.8 1-4.9 4.8 1.2 6.8-6.1-3.2-6.1 3.2 1.2-6.8L2.2 9.1l6.8-1Z"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 11-8 11S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="header glass">
+    <div class="shell header__inner">
+      <a class="wordmark" href="#top" data-scroll translate="no"><svg class="icon" aria-hidden="true"><use href="#icon-mark"/></svg><span>Камера Обскура</span></a>
+      <button class="icon-button menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню" hidden><svg class="icon" aria-hidden="true"><use href="#icon-menu"/></svg></button>
+      <nav class="site-nav" id="main-nav" aria-label="Основное меню">
+        <a href="#interiors" data-scroll>Интерьеры</a>
+        <a href="#builder" data-scroll>Стоимость и бронь</a>
+        <a href="#about" data-scroll>О студии</a>
+        <a href="#contacts" data-scroll>Контакты</a>
+      </nav>
+      <a class="header__phone" href="tel:+79139609030" aria-label="Позвонить по номеру +7 913 960-90-30"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg><span>+7 913 960-90-30</span></a>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="shell hero__inner">
+        <div class="hero__copy">
+          <h1 id="hero-title" tabindex="-1">Интерьерная фотостудия с&nbsp;характером плёночного кадра</h1>
+          <p class="hero__description">Ретро-интерьеры, декорации и свет для портретов, семейных и контент-съёмок в Омске.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#builder" data-scroll>Узнать стоимость и забронировать</a>
+            <a class="button button--outline" href="#interiors" data-scroll>Смотреть интерьеры <svg class="icon" aria-hidden="true"><use href="#icon-down"/></svg></a>
+          </div>
+          <a class="rating glass" href="https://2gis.ru/omsk/firm/70000001037964133" target="_blank" rel="noopener noreferrer" aria-label="Рейтинг 5 из 5, 165 оценок в 2ГИС">
+            <svg class="icon" aria-hidden="true"><use href="#icon-star"/></svg> <strong>5.0</strong><span>165 оценок в 2ГИС</span>
+          </a>
+        </div>
+        <div class="hero-emblem" data-hero-emblem>
+          <div class="hero-emblem__face"><img src="assets/hero-logo.svg" width="520" height="340" alt="Камера Обскура"></div>
+        </div>
+        <div class="hero__footer">
+          <a href="#contacts" data-scroll><svg class="icon" aria-hidden="true"><use href="#icon-pin"/></svg> Омск, 1-я Береговая, 25</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee is-paused">
+      <div class="marquee__viewport">
+        <div class="marquee__track">
+          <span>Ретро-интерьеры <b>•</b> Декорации <b>•</b> Портретная и семейная съёмка <b>•</b> Аренда зала <b>•</b> По предварительному звонку <b>•</b></span>
+          <span aria-hidden="true">Ретро-интерьеры <b>•</b> Декорации <b>•</b> Портретная и семейная съёмка <b>•</b> Аренда зала <b>•</b> По предварительному звонку <b>•</b></span>
+        </div>
+      </div>
+      <button class="icon-button marquee__pause" type="button" aria-label="Приостановить бегущую строку" hidden><svg class="icon" aria-hidden="true"><use href="#icon-pause"/></svg></button>
+    </div>
+
+    <section class="interiors" id="interiors" aria-labelledby="interiors-title">
+      <div class="shell">
+        <div class="section-head">
+          <div>
+            <h2 id="interiors-title" tabindex="-1">Интерьеры</h2>
+            <p>Подборка для вдохновения. Актуальные декорации можно уточнить при бронировании.</p>
+          </div>
+          <a class="text-link" href="https://2gis.ru/omsk/gallery/firm/70000001037964133" target="_blank" rel="noopener noreferrer">Фото студии в 2ГИС <svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+        </div>
+        <div class="gallery-toolbar" hidden>
+          <div class="filters" role="group" aria-label="Фильтр кадров">
+            <button type="button" data-filter="all" aria-pressed="true">Все локации</button>
+            <button type="button" data-filter="retro" aria-pressed="false">Ретро-интерьер</button>
+            <button type="button" data-filter="light" aria-pressed="false">Декорации и свет</button>
+          </div>
+          <div class="gallery-controls" role="group" aria-label="Перелистывание галереи">
+            <span class="frame-count" role="status" aria-label="Текущий кадр">01 / 10</span>
+            <button class="icon-button" type="button" data-gallery-step="-1" aria-label="Предыдущий кадр" aria-controls="filmstrip"><svg class="icon" aria-hidden="true"><use href="#icon-prev"/></svg></button>
+            <button class="icon-button" type="button" data-gallery-step="1" aria-label="Следующий кадр" aria-controls="filmstrip"><svg class="icon" aria-hidden="true"><use href="#icon-next"/></svg></button>
+          </div>
+        </div>
+        <div class="filmstrip" id="filmstrip" tabindex="0" aria-label="Галерея интерьерных кадров">
+          <figure class="frame" data-category="retro" id="frame-1">
+            <a class="frame__image" href="assets/1.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Фортепиано»">
+              <img src="assets/1.webp" width="848" height="1280" loading="lazy" decoding="async" alt="Руки на клавишах фортепиано">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">01</span><span class="frame__title">Фортепиано</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="retro" id="frame-2">
+            <a class="frame__image" href="assets/2.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Библиотека»">
+              <img src="assets/2.webp" width="848" height="1280" loading="lazy" decoding="async" alt="Человек за столом на фоне книжных полок">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">02</span><span class="frame__title">Библиотека</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="light" id="frame-3">
+            <a class="frame__image" href="assets/3.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Свет на стене»">
+              <img src="assets/3.webp" width="892" height="1280" loading="lazy" decoding="async" alt="Настенный светильник с тёплым светом">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">03</span><span class="frame__title">Свет на стене</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="light" id="frame-4">
+            <a class="frame__image" href="assets/4.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Портрет в луче света»">
+              <img src="assets/4.webp" width="848" height="1280" loading="lazy" decoding="async" alt="Портрет с боковым светом">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">04</span><span class="frame__title">Портрет в луче света</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="light" id="frame-5">
+            <a class="frame__image" href="assets/5.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Детали интерьера»">
+              <img src="assets/5.webp" width="960" height="1280" loading="lazy" decoding="async" alt="Бокалы и настольная лампа">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">05</span><span class="frame__title">Детали интерьера</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="retro" id="frame-6">
+            <a class="frame__image" href="assets/6.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Зал студии»">
+              <img src="assets/6.webp" width="960" height="1280" loading="lazy" decoding="async" alt="Просторный зал с креслами и растениями">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">06</span><span class="frame__title">Зал студии</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="light" id="frame-7">
+            <a class="frame__image" href="assets/7.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Свечи и зеркала»">
+              <img src="assets/7.webp" width="853" height="1280" loading="lazy" decoding="async" alt="Портрет рядом с подсвечниками">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">07</span><span class="frame__title">Свечи и зеркала</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="retro" id="frame-8">
+            <a class="frame__image" href="assets/8.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Гостиная»">
+              <img src="assets/8.webp" width="1280" height="854" loading="lazy" decoding="async" alt="Человек в кресле рядом с роялем">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">08</span><span class="frame__title">Гостиная</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="light" id="frame-9">
+            <a class="frame__image" href="assets/9.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Портрет у зеркала»">
+              <img src="assets/9.webp" width="853" height="1280" loading="lazy" decoding="async" alt="Портрет с отражением в зеркале">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">09</span><span class="frame__title">Портрет у зеркала</span></figcaption>
+          </figure>
+          <figure class="frame" data-category="retro" id="frame-10">
+            <a class="frame__image" href="assets/10.webp" target="_blank" rel="noopener noreferrer" aria-label="Открыть кадр «Групповой кадр»">
+              <img src="assets/10.webp" width="1280" height="853" loading="lazy" decoding="async" alt="Групповой портрет в интерьере">
+              <span class="frame__expand"><svg class="icon" aria-hidden="true"><use href="#icon-expand"/></svg></span>
+            </a>
+            <figcaption><span class="frame__number">10</span><span class="frame__title">Групповой кадр</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="builder" id="builder" aria-labelledby="builder-title">
+      <div class="shell">
+        <h2 id="builder-title" tabindex="-1">Узнать стоимость и забронировать</h2>
+        <p class="section-intro">Выберите формат съёмки и свяжитесь со студией, чтобы уточнить стоимость и свободное время.</p>
+        <div class="builder__layout">
+          <form class="shoot-form" autocomplete="off">
+            <fieldset>
+              <legend><span>01</span> Формат</legend>
+              <div class="choice-grid">
+              <label class="choice"><input type="radio" name="format" value="Индивидуальный портрет" checked><span>Индивидуальный портрет</span></label>
+              <label class="choice"><input type="radio" name="format" value="Love Story / Семейная съёмка"><span>Love Story / Семейная съёмка</span></label>
+              <label class="choice"><input type="radio" name="format" value="Аренда локации со своим фотографом"><span>Аренда локации со своим фотографом</span></label>
+              <label class="choice"><input type="radio" name="format" value="Контент-съёмка"><span>Контент-съёмка</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend><span>02</span> Длительность</legend>
+              <div class="choice-grid choice-grid--duration">
+              <label class="choice"><input type="radio" name="duration" value="1 час" checked><span>1 час</span></label>
+              <label class="choice"><input type="radio" name="duration" value="2 часа"><span>2 часа</span></label>
+              <label class="choice"><input type="radio" name="duration" value="3+ часа"><span>3+ часа</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend><span>03</span> Свет и декорации</legend>
+              <div class="choice-grid">
+              <label class="choice"><input type="radio" name="setting" value="Обсудим со студией" checked><span>Обсудим со студией</span></label>
+              <label class="choice"><input type="radio" name="setting" value="Мягкий свет"><span>Мягкий свет</span></label>
+              <label class="choice"><input type="radio" name="setting" value="Драматичный свет"><span>Драматичный свет</span></label>
+              <label class="choice"><input type="radio" name="setting" value="Ретро-декорации"><span>Ретро-декорации</span></label>
+              </div>
+            </fieldset>
+          </form>
+          <aside class="brief glass" aria-labelledby="brief-title">
+            <h3 id="brief-title">Ваша съёмка</h3>
+            <dl class="brief__details" aria-live="polite">
+              <div><dt>Формат</dt><dd data-summary="format">Индивидуальный портрет</dd></div>
+              <div><dt>Длительность</dt><dd data-summary="duration">1 час</dd></div>
+              <div><dt>Свет и декорации</dt><dd data-summary="setting">Обсудим со студией</dd></div>
+            </dl>
+            <p class="brief__status">Назовите выбранный формат при обращении в студию.</p>
+            <a class="button button--primary" href="tel:+79139609030"><svg class="icon" aria-hidden="true"><use href="#icon-phone"/></svg>Позвонить в студию</a>
+            <a class="text-link" href="https://2gis.ru/omsk/firm/70000001037964133" target="_blank" rel="noopener noreferrer">Написать в мессенджеры (2ГИС) <svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="shell about__layout">
+        <div class="about__copy">
+          <h2 id="about-title" tabindex="-1">О студии</h2>
+          <p class="about__lede">«Камера Обскура» — интерьерная фотостудия в Центральном округе Омска.</p>
+          <p>Здесь можно запланировать портретную, семейную или контент-съёмку, а также арендовать локацию и прийти со своим фотографом.</p>
+          <a class="text-link" href="https://2gis.ru/omsk/firm/70000001037964133/tab/reviews" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#icon-star"/></svg> 5.0 в 2ГИС · 91 отзыв <svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+        </div>
+        <figure class="about__photo">
+          <img src="assets/6.webp" width="960" height="1280" loading="lazy" decoding="async" alt="Интерьер фотостудии «Камера Обскура»">
+        </figure>
+      </div>
+    </section>
+
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="shell">
+        <h2 id="contacts-title" tabindex="-1">Контакты</h2>
+        <div class="contacts__layout">
+          <div>
+            <h3>Как добраться</h3>
+            <address>Омск, 1-я Береговая ул., 25<br><span>3 этаж, 1 подъезд · Центральный округ</span></address>
+            <a class="button button--outline" href="https://2gis.ru/omsk/directions/points/%7C73.38616%2C54.996938%3B70000001037964133" target="_blank" rel="noopener noreferrer">Построить маршрут в 2ГИС <svg class="icon" aria-hidden="true"><use href="#icon-external"/></svg></a>
+          </div>
+          <div>
+            <h3>Запись в студию</h3>
+            <a class="contacts__phone" href="tel:+79139609030">+7 913 960-90-30</a>
+            <p>Ежедневно, 09:00–24:00, по предварительному звонку.<br>Стоимость уточняется по телефону при бронировании.</p>
+            <nav class="social-links" aria-label="Соцсети и мессенджеры">
+              <a class="text-link" href="https://vk.ru/obscura_camerafoto" target="_blank" rel="noopener noreferrer">ВКонтакте</a>
+              <a class="text-link" href="https://t.me/cameraobscura_omsk" target="_blank" rel="noopener noreferrer">Telegram</a>
+              <a class="text-link" href="https://wa.me/79514225468" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+              <a class="text-link" href="https://2gis.ru/omsk/firm/70000001037964133" target="_blank" rel="noopener noreferrer">2ГИС</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <a class="wordmark" href="#top" data-scroll translate="no"><svg class="icon" aria-hidden="true"><use href="#icon-mark"/></svg><span>Камера Обскура</span></a>
+      <p>Посещение студии осуществляется по предварительному согласованию времени.</p>
+      <button class="text-link footer__policy" type="button" data-privacy hidden>Политика конфиденциальности</button>
+    </div>
+    <p class="demo-note">Демо-концепт, не является официальным сайтом, удалим по первой просьбе</p>
+  </footer>
+
+  <aside class="call-bar glass" aria-label="Быстрый звонок в студию">
+    <a class="button button--primary" href="#builder" data-scroll>Узнать стоимость и забронировать</a>
+  </aside>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox__inner">
+      <header class="lightbox__head">
+        <h2 id="lightbox-title">Просмотр кадра</h2>
+        <button type="button" class="icon-button" data-close aria-label="Закрыть кадр"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
+      </header>
+      <figure class="lightbox__figure">
+        <img width="1000" height="750" alt="">
+        <figcaption><span class="lightbox__caption"></span></figcaption>
+      </figure>
+      <div class="lightbox__controls">
+        <button type="button" class="icon-button" data-gallery-step="-1" aria-label="Предыдущий кадр"><svg class="icon" aria-hidden="true"><use href="#icon-prev"/></svg></button>
+        <span class="frame-count" role="status"></span>
+        <button type="button" class="icon-button" data-gallery-step="1" aria-label="Следующий кадр"><svg class="icon" aria-hidden="true"><use href="#icon-next"/></svg></button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="privacy glass" id="privacy" aria-labelledby="privacy-title">
+    <button type="button" class="icon-button privacy__close" data-close aria-label="Закрыть политику"><svg class="icon" aria-hidden="true"><use href="#icon-close"/></svg></button>
+    <h2 id="privacy-title">Политика конфиденциальности и обработка персональных данных (152-ФЗ)</h2>
+    <p>Конструктор работает в браузере. Выбранные параметры остаются на странице, пока она открыта. На сайте отсутствуют формы отправки контактных данных и собственные аналитические счётчики.</p>
+    <p>Для загрузки шрифтов, фотографий и анимаций браузер обращается к внешним сервисам. При запросе эти сервисы могут получить IP-адрес и технические сведения браузера. При переходе в 2ГИС действуют правила сервиса.</p>
+    <p>Если вы свяжетесь со студией, сообщённые при обращении сведения могут использоваться для ответа, согласования съёмки и исполнения договорённостей. Вопросы об обработке данных и запросы об их уточнении или удалении можно адресовать студии по телефону <a href="tel:+79139609030">+7 913 960-90-30</a>.</p>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com 'sha256-0mfLiB8KshY3Sy+oD4HgziHQyFf5p6lljTWAEJi9aHc='; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0D1015">
+  <meta name="referrer" content="no-referrer">
+  <title>Апгрейд — студия тату и пирсинга в Новосибирске</title>
+  <meta name="description" content="Татуировки и пирсинг в Новосибирске. Студия «Апгрейд» на Красина, 54. Цены на проколы, примеры стиля и онлайн-запись через DIKIDI.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Апгрейд">
+  <meta property="og:title" content="Апгрейд — студия тату и пирсинга">
+  <meta property="og:description" content="Тату и пирсинг в Новосибирске. Красина, 54. Ежедневно с 10:00 до 21:00 по предварительной записи.">
+  <meta property="og:image" content="assets/7.webp">
+  <meta property="og:image:alt" content="Тату-мастер в чёрных перчатках за работой">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&amp;family=Unbounded:wght@400;600;700;800&amp;display=swap">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TattooParlor",
+    "name": "Апгрейд",
+    "description": "Студия тату и пирсинга. Приём по предварительной записи.",
+    "telephone": "+79137001536",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Красина, 54, цокольный этаж",
+      "addressLocality": "Новосибирск",
+      "addressCountry": "RU"
+    },
+    "openingHours": "Mo-Su 10:00-21:00",
+    "hasMap": "https://2gis.ru/novosibirsk/firm/70000001089034141",
+    "sameAs": ["https://2gis.ru/novosibirsk/firm/70000001089034141", "https://dikidi.net/1600482"]
+  }
+  </script>
+  <script async id="gsap-cdn" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script async id="scrolltrigger-cdn" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-mark" viewBox="0 0 24 24"><path d="M3 19 12 4l9 15h-4.5L12 11l-4.5 8H3Z" fill="currentColor" stroke="none"/><path d="M10 20h4"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 10-7 10S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v5m8-5v5M4 11h16m-11 4h2m3 0h2m-7 3h2"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m10 6 6 6-6 6"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M14 5h5v5m0-5-5 5M10 19H5v-5m0 5 5-5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12m6-12v12"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 6 9 6-9 6V6Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M8 4H5a1 1 0 0 0-1 1 15 15 0 0 0 15 15 1 1 0 0 0 1-1v-3l-5-2-1.5 2a12 12 0 0 1-5.5-5.5L10 9 8 4Z"/></symbol>
+    <symbol id="i-safe" viewBox="0 0 24 24"><path d="M12 21s7-3 7-9V6l-7-3-7 3v6c0 6 7 9 7 9Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2c0 6 4 10 10 10-6 0-10 4-10 10 0-6-4-10-10-10 6 0 10-4 10-10Z"/></symbol>
+    <symbol id="i-gem" viewBox="0 0 24 24"><path d="m3 9 4-5h10l4 5-9 11L3 9Zm0 0h18M8 9l4 11 4-11-2-5m-4 0L8 9"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20 12c-2 4-8 8-8 8s-6-4-8-8c-3-6 4-10 8-5 4-5 11-1 8 5Z"/></symbol>
+  </svg>
+  <a class="skip-link" href="#main">К содержимому</a>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Апгрейд, к началу">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true"><use href="#i-mark"/></svg></span><span>АПГРЕЙД</span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#gallery">Галерея</a><a href="#price">Стоимость</a><a href="#approach">Подход</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="button header-cta" href="https://dikidi.net/1600482" target="_blank" rel="noopener noreferrer">Онлайн-запись</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title"><span class="hero-line">Апгрейд</span><span class="hero-subtitle">Студия тату <br>и пирсинга</span></h1>
+        <p class="hero-location"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg>Новосибирск, ул. Красина, 54</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://dikidi.net/1600482" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Записаться онлайн <span class="provider" translate="no">DIKIDI</span></a>
+          <a class="button button-secondary" href="#price">Рассчитать стоимость</a>
+        </div>
+        <a class="hero-rating" href="https://2gis.ru/novosibirsk/firm/70000001089034141" target="_blank" rel="noopener noreferrer">
+          <span class="rating-star" aria-hidden="true">★</span><strong>5.0</strong><span>320+ оценок в 2ГИС</span>
+        </a>
+      </div>
+      <div class="hero-media">
+        <div class="brand-scene" data-tilt>
+          <div class="brand-emblem">
+            <svg viewBox="0 0 480 480" role="img" aria-labelledby="upgrade-emblem-title">
+              <title id="upgrade-emblem-title">Знак студии Апгрейд</title>
+              <defs>
+                <linearGradient id="up-panel" x2="0.8" y2="1">
+                  <stop stop-color="#53696c"/><stop offset=".36" stop-color="#2b4348"/><stop offset="1" stop-color="#122027"/>
+                </linearGradient>
+                <linearGradient id="up-metal" x2="0.8" y2="1">
+                  <stop stop-color="#edffce"/><stop offset=".41" stop-color="#b2f767"/><stop offset="1" stop-color="#30c8ad"/>
+                </linearGradient>
+                <path id="up-base" d="M240 42 404 135v183l-164 94L76 318V135Z"/>
+                <path id="up-arrow" d="M119 288 240 104 361 288h-59l-62-99-62 99Z"/>
+                <path id="up-bar" d="M204 311h72l-11 24h-50Z"/>
+              </defs>
+              <use href="#up-base" y="18" fill="#0b161d" stroke="#3c6865" stroke-width="3"/>
+              <use href="#up-base" fill="url(#up-panel)" stroke="#8cbbb0" stroke-width="2"/>
+              <path d="M240 62 388 146v163l-148 84-148-84V146Z" fill="none" stroke="#9dfbe1" opacity=".34"/>
+              <path d="m107 191 16-10m234 0 16 10m-133 174v11" fill="none" stroke="#7ae9d2" stroke-width="3"/>
+              <use href="#up-arrow" y="13" fill="#1f756b"/>
+              <use href="#up-bar" y="10" fill="#1f756b"/>
+              <use href="#up-arrow" fill="url(#up-metal)" stroke="#e3ffd8" stroke-width="1.5"/>
+              <use href="#up-bar" fill="url(#up-metal)" stroke="#e3ffd8" stroke-width="1.5"/>
+              <path d="m240 105 120 182-58 1-62-99Z" fill="#1c9a8a" opacity=".28"/>
+            </svg>
+          </div>
+        </div>
+        <nav class="hero-gallery-links" aria-label="Категории галереи">
+          <a class="button button-secondary" href="#gallery" data-direction="tattoo">Тату</a>
+          <a class="button button-secondary" href="#gallery" data-direction="piercing">Пирсинг</a>
+        </nav>
+      </div>
+    </section>
+
+    <div class="marquee">
+      <div class="marquee-window">
+        <div class="marquee-track" id="marquee-track">
+          <span>Пирсинг <b aria-hidden="true">✦</b> Татуировка <b aria-hidden="true">✦</b> Стерильность <b aria-hidden="true">✦</b> Индивидуальный эскиз <b aria-hidden="true">✦</b> Украшения <b aria-hidden="true">✦</b></span>
+          <span aria-hidden="true">Пирсинг <b>✦</b> Татуировка <b>✦</b> Стерильность <b>✦</b> Индивидуальный эскиз <b>✦</b> Украшения <b>✦</b></span>
+          <span aria-hidden="true">Пирсинг <b>✦</b> Татуировка <b>✦</b> Стерильность <b>✦</b> Индивидуальный эскиз <b>✦</b> Украшения <b>✦</b></span>
+          <span aria-hidden="true">Пирсинг <b>✦</b> Татуировка <b>✦</b> Стерильность <b>✦</b> Индивидуальный эскиз <b>✦</b> Украшения <b>✦</b></span>
+          <span aria-hidden="true">Пирсинг <b>✦</b> Татуировка <b>✦</b> Стерильность <b>✦</b> Индивидуальный эскиз <b>✦</b> Украшения <b>✦</b></span>
+          <span aria-hidden="true">Пирсинг <b>✦</b> Татуировка <b>✦</b> Стерильность <b>✦</b> Индивидуальный эскиз <b>✦</b> Украшения <b>✦</b></span>
+        </div>
+      </div>
+      <button class="icon-button marquee-toggle" type="button" aria-label="Приостановить бегущую строку" aria-controls="marquee-track" aria-pressed="false" data-marquee>
+        <svg class="icon" aria-hidden="true"><use href="#i-pause"/></svg>
+      </button>
+    </div>
+
+    <section class="wrap section gallery" id="gallery" aria-labelledby="gallery-title">
+      <div class="section-head">
+        <h2 id="gallery-title">Галерея стилей</h2>
+        <div class="segmented" role="group" aria-label="Фильтр галереи">
+          <button type="button" data-filter="all" aria-pressed="true" aria-controls="gallery-track">Все</button>
+          <button type="button" data-filter="piercing" aria-pressed="false" aria-controls="gallery-track">Пирсинг</button>
+          <button type="button" data-filter="tattoo" aria-pressed="false" aria-controls="gallery-track">Тату</button>
+        </div>
+      </div>
+      <div class="gallery-track" id="gallery-track" role="region" aria-label="Фотографии. Используйте стрелки для прокрутки" tabindex="0">
+        <button class="photo-card" type="button" data-category="piercing">
+          <img src="assets/XXXL.webp" alt="Украшения в проколах уха" width="1280" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="tattoo">
+          <img src="assets/1.webp" alt="Татуировка на предплечье в розовом свете" width="960" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="piercing">
+          <img src="assets/4.webp" alt="Украшения в проколах носа и брови" width="719" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="tattoo">
+          <img src="assets/2.webp" alt="Татуировка с портретом на кисти" width="960" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="piercing">
+          <img src="assets/5.webp" alt="Украшение для пирсинга крупным планом" width="720" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="tattoo">
+          <img src="assets/7.webp" alt="Цветная татуировка на предплечье" width="720" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="piercing">
+          <img src="assets/3.webp" alt="Украшение в проколе пупка" width="960" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+        <button class="photo-card" type="button" data-category="tattoo">
+          <img src="assets/10.webp" alt="Коллаж с чёрно-серыми татуировками" width="904" height="1280" loading="lazy" decoding="async">
+          <span class="photo-expand"><svg class="icon" aria-hidden="true"><use href="#i-expand"/></svg></span>
+        </button>
+      </div>
+      <div class="gallery-foot">
+        <div class="gallery-indicator">
+          <output class="counter" id="gallery-count" aria-live="polite">1 / 8</output>
+          <progress id="gallery-progress" aria-label="Позиция в галерее" value="1" max="8"></progress>
+        </div>
+        <div class="gallery-arrows">
+          <button class="icon-button" type="button" aria-label="Назад" data-gallery-step="-1"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg></button>
+          <button class="icon-button" type="button" aria-label="Вперёд" data-gallery-step="1"><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section price" id="price" aria-labelledby="price-title">
+      <h2 id="price-title">Стоимость</h2>
+      <div class="calculator glass" data-glow hidden>
+        <div class="calculator-inputs">
+          <div class="fields">
+            <label for="service">Услуга</label>
+            <select id="service" name="service"></select>
+          </div>
+        </div>
+        <div class="calculator-result">
+          <p class="price-caption">Стоимость по прайсу</p>
+          <output id="quote" for="service" aria-live="polite"></output>
+          <a class="button button-primary" href="https://dikidi.net/1600482" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Записаться в DIKIDI</a>
+        </div>
+      </div>
+      <details class="price-list" id="price-list">
+        <summary>Полный прайс</summary>
+        <section>
+          <h3>Пирсинг</h3>
+          <dl>
+            <div><dt>Губы</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Крыло носа</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Бридж</dt><dd>3&nbsp;000 ₽</dd></div>
+            <div><dt>Септум</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Смайл</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Пирсинг языка</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Соски (один сосок)</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Соски (два разом)</dt><dd>4&nbsp;500 ₽</dd></div>
+            <div><dt>Пупок</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Восстановление прокола</dt><dd>1&nbsp;000 ₽</dd></div>
+            <div><dt>Замена украшения</dt><dd>500 ₽</dd></div>
+            <div><dt>Микродермал</dt><dd>4&nbsp;000 ₽</dd></div>
+            <div><dt>Чистка микродермала</dt><dd>1&nbsp;000 ₽</dd></div>
+            <div><dt>Удаление микродермала</dt><dd>1&nbsp;000 ₽</dd></div>
+            <div><dt>Пирсинг мочки уха (один прокол)</dt><dd>2&nbsp;000 ₽</dd></div>
+            <div><dt>Пирсинг мочки уха (два прокола)</dt><dd>3&nbsp;000 ₽</dd></div>
+            <div><dt>Бровь</dt><dd>2&nbsp;500 ₽</dd></div>
+            <div><dt>Пирсинг хрящ уха</dt><dd>2&nbsp;500 ₽</dd></div>
+          </dl>
+        </section>
+        <section>
+          <h3>Перманентный макияж</h3>
+          <dl>
+            <div><dt>Перманентный макияж бровей</dt><dd>6&nbsp;000 ₽</dd></div>
+            <div><dt>Перманентный макияж губ</dt><dd>6&nbsp;000 ₽</dd></div>
+            <div><dt>Перманентный макияж глаз</dt><dd>6&nbsp;000 ₽</dd></div>
+          </dl>
+        </section>
+        <section>
+          <h3>Татуировки</h3>
+          <dl>
+            <div><dt>Цветная татуировка</dt><dd>8&nbsp;000 ₽</dd></div>
+            <div><dt>Микрореализм</dt><dd>7&nbsp;000 ₽</dd></div>
+            <div><dt>Мини тату</dt><dd>4&nbsp;000 ₽</dd></div>
+          </dl>
+        </section>
+      </details>
+    </section>
+
+    <section class="wrap section approach" id="approach" aria-labelledby="approach-title">
+      <h2 id="approach-title">Безопасность и подход</h2>
+      <div class="bento" data-reveal-group>
+        <article class="method glass" data-glow>
+          <svg class="icon method-icon" aria-hidden="true"><use href="#i-safe"/></svg>
+          <div><h3>Одноразовые расходники</h3><p>Используем новый комплект расходных материалов для каждого сеанса.</p></div>
+        </article>
+        <article class="method glass" data-glow>
+          <svg class="icon method-icon" aria-hidden="true"><use href="#i-spark"/></svg>
+          <div><h3>Стерилизация</h3><p>Стерилизуем многоразовые инструменты перед использованием.</p></div>
+        </article>
+        <article class="method glass" data-glow>
+          <svg class="icon method-icon" aria-hidden="true"><use href="#i-gem"/></svg>
+          <div><h3>Подбор украшений</h3><p>Поможем подобрать украшение с учётом места прокола и анатомии.</p></div>
+        </article>
+        <article class="method glass" data-glow>
+          <svg class="icon method-icon" aria-hidden="true"><use href="#i-heart"/></svg>
+          <div><h3>Сопровождение заживления</h3><p>Объясним, как ухаживать за татуировкой или проколом после сеанса.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap section contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="contact-panel glass" data-glow>
+        <div class="contact-main">
+          <h2 id="contacts-title">Как нас найти</h2>
+          <address><strong>ул. Красина, 54</strong><span>Новосибирск, Дзержинский район, цокольный этаж</span></address>
+          <p>Ежедневно <strong>10:00–21:00</strong><br><span class="muted">По предварительной записи</span></p>
+          <a class="contact-phone" href="tel:+79137001536"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>+7 913 700-15-36</a>
+          <nav class="social-links" aria-label="Соцсети и мессенджеры">
+            <a href="https://dikidi.net/1600482" target="_blank" rel="noopener noreferrer">DIKIDI</a>
+            <a href="https://vk.ru/upgrade.lab_54" target="_blank" rel="noopener noreferrer">ВКонтакте</a>
+            <a href="https://t.me/upgradelab_54" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a href="https://t.me/+79137001536" target="_blank" rel="noopener noreferrer">Telegram по телефону</a>
+            <a href="https://wa.me/79137001536" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          </nav>
+        </div>
+        <div class="contact-side">
+          <span class="contact-pin"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+          <a class="button button-primary" href="https://2gis.ru/novosibirsk/firm/70000001089034141" target="_blank" rel="noopener noreferrer">Маршрут в 2ГИС</a>
+          <p class="review-summary"><strong>5.0 ★</strong> в 2ГИС<br>324 оценки · 261 отзыв<br><strong>4.9 ★</strong> в Яндекс Картах</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap site-footer">
+    <div class="footer-disclaimer"><span class="age">18+</span><p>Имеются противопоказания, необходима консультация специалиста.</p></div>
+    <button class="plain-button" type="button" id="privacy-open">Политика конфиденциальности</button>
+    <p class="demo-notice">Демо-концепт, не является официальным сайтом, удалим по первой просьбе</p>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Быстрые действия">
+    <a class="button button-secondary" href="tel:+79137001536"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Позвонить</a>
+    <a class="button button-primary" href="https://dikidi.net/1600482" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg>Записаться</a>
+  </nav>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Фотография в полноэкранном режиме">
+    <header class="lightbox-header">
+      <output class="counter" id="lightbox-count" aria-live="polite">1 / 8</output>
+      <button class="icon-button" type="button" aria-label="Закрыть фотографию" data-close autofocus><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    </header>
+    <div class="lightbox-stage">
+      <img id="lightbox-image" width="1000" height="1250" alt="">
+      <p id="lightbox-error" hidden>Фото не загрузилось. Попробуйте открыть его напрямую.</p>
+    </div>
+    <div class="lightbox-controls">
+      <button class="icon-button" type="button" aria-label="Предыдущее фото" data-lightbox-step="-1"><svg class="icon" aria-hidden="true"><use href="#i-left"/></svg></button>
+      <a class="plain-link" id="lightbox-original" target="_blank" rel="noopener noreferrer">Открыть фото</a>
+      <button class="icon-button" type="button" aria-label="Следующее фото" data-lightbox-step="1"><svg class="icon" aria-hidden="true"><use href="#i-right"/></svg></button>
+    </div>
+  </dialog>
+
+  <dialog class="privacy" id="privacy" aria-labelledby="privacy-title">
+    <button class="icon-button privacy-close" type="button" aria-label="Закрыть политику конфиденциальности" data-close autofocus><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+    <h2 id="privacy-title">Политика конфиденциальности и обработка персональных данных (152‑ФЗ)</h2>
+    <p>На этой странице нет форм для ввода персональных данных, аналитических счётчиков и собственных cookie. Параметры калькулятора обрабатываются в браузере и не передаются студии или в DIKIDI.</p>
+    <p>При загрузке страницы браузер обращается к Google Fonts и cdnjs за шрифтами и библиотекой анимаций. Эти сервисы получают технические сведения о запросе, включая IP-адрес.</p>
+    <p>Онлайн-запись проходит в DIKIDI, а маршрут открывается в 2ГИС. При переходе по внешним ссылкам действуют правила соответствующих сервисов. При звонке студия может использовать предоставленные вами контактные сведения для ответа на запрос и согласования визита.</p>
+    <p>Связаться со студией по вопросам обработки данных, их уточнения или удаления можно по телефону <a href="tel:+79137001536">+7 913 700-15-36</a> или лично в студии на ул. Красина, 54, цокольный этаж, Новосибирск.</p>
+  </dialog>
+</body>
+</html>

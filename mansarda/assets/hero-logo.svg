@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340">
+  <defs>
+    <linearGradient id="gold" x2=".72" y2="1">
+      <stop stop-color="#fff2d6"/>
+      <stop offset=".51" stop-color="#d9ba8a"/>
+      <stop offset="1" stop-color="#9d7950"/>
+    </linearGradient>
+    <linearGradient id="window" x2="1" y2="1">
+      <stop stop-color="#9d9f72"/>
+      <stop offset="1" stop-color="#414732"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(260 139)">
+    <path d="M-111-9 0-98l111 89v95h-222Z" fill="#272b20" stroke="#6b5b40" stroke-width="4" stroke-linejoin="round" transform="translate(0 7)"/>
+    <path d="M-111-9 0-98l111 89v95h-222Z" fill="#383e2d" stroke="url(#gold)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M-87 67V1L0-69 87 1v66Z" fill="url(#window)" stroke="url(#gold)" stroke-width="2"/>
+    <path d="M0-67V67M-87 1H87M-86 39H86" fill="none" stroke="#dfc49b" stroke-width="2"/>
+    <path d="m17-54 53 44H17ZM-84 4h52l-52 33Z" fill="#fff4d2" opacity=".24"/>
+    <path d="m-138 1 138-111L138 1M-132 96h264" fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="260" y="293" fill="#fae7c8" text-anchor="middle" font-family="Georgia, serif" font-size="39" letter-spacing="3">МАНСАРДА</text>
+</svg>
